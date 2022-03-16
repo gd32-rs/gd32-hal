@@ -1,7 +1,7 @@
 use crate::{
     clocks::SpeedError,
     pac::RCU,
-    rcc_en_reset,
+    rcu_en_reset,
 };
 
 use cfg_if::cfg_if;
